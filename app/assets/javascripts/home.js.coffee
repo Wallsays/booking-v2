@@ -13,6 +13,15 @@ $ ->
   $('#datepicker').datepicker()
   $('#datepicker2').datepicker()
   
-  $('#timepicker').timepicker()
-  $('#timepicker2').timepicker()
+  # $('#timepicker').timepicker()
+  $('#timepicker').timepicker(
+    minuteStep: 15,
+    showInputs: false,
+    disableFocus: true
+  )
+  $('#timepicker2').timepicker(
+    minuteStep: 15,
+    showInputs: false,
+    disableFocus: true
+  )
 

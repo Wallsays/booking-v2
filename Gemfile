@@ -61,6 +61,7 @@ end
 gem 'sass-rails',     '>= 3.2'
 gem 'coffee-rails', '~> 3.2.1'
 gem 'bootstrap-sass-rails'
+
 # gem 'bootstrap-sass', '~> 3.0.3.0'
 # gem 'bootswatch-rails'
 
