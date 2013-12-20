@@ -174,7 +174,9 @@
                           <!-- main col right -->
                           <div class="col-sm-4">
                             <h2 class="rlight">Location :</h2>
-                <img src="http://placehold.it/400x270">
+                <!-- <img src="http://placehold.it/400x270"> -->
+                <%= image_tag @image_tag_string, :width => '400', :height => "270" %>
+
               <h2 class="rlight">Filter Options :</h2>
               <div class="filter">
                 <form action="test.php" method="post">
